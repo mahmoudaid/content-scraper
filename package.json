@@ -1,0 +1,25 @@
+{
+  "name": "content-scraper",
+  "version": "1.0.0",
+  "description": "A content scraper for shirts products.",
+  "main": "scraper.js",
+  "dependencies": {
+    "json2csv": "^3.7.2",
+    "cheerio": "^0.22.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "content",
+    "scraper"
+  ],
+  "author": "Mahmoud Eid",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint scraper.js",
+    "test": "node scraper.js"
+  }
+}
