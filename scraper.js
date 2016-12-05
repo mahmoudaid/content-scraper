@@ -178,7 +178,7 @@
 			if (stats) return true;
 		}
 		catch(error) {
-			return false
+			return false;
 		}
 	}
 
